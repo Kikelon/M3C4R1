@@ -40,8 +40,7 @@ app.post("/profesional",
                 req.body.isRetired,
                 req.body.nationality,
                 req.body.oscarsNumbers,
-                req.body.profession,
-
+                req.body.profession
             );
             respuesta = {error: false, codigo: 200, mensaje: 'Profesional creado correctamente', resultado: profesional};
         } else {
